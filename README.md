@@ -39,6 +39,6 @@ learning.py
 
 # Android Application
 IrrigationApp
-- Install on Phone to data from the Server.
+- Install on Phone to access data from the Server.
 
 GOOD LUCK!!!
