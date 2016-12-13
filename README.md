@@ -1,4 +1,4 @@
-# IntelligentIrrigationSystem
+# Intelligent Irrigation System
 Implementation Of A Smart Irrigation System for Small  Scale Farming
 
 
