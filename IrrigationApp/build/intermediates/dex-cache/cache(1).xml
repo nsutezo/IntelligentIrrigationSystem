@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_a52243a7822e2924b41c4e224533979f65adb24d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a00bb9544192a3e6e02a7f777457179f501ccdac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0/ff93baa2e2e6ca507fc6ec731f61751dd0d865e7/MPAndroidChart-v3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ff93baa2e2e6ca507fc6ec731f61751dd0d865e7">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.0_7d2656e650fdb6e58aa798d5be94ed509cb5a38f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_33aa8720fad6985862911e1787da598cc3c7272f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bd7e96116957c976d3636c7471299808932c7b45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_b182de47d1ab4749ead6b69e0035b018117fd212.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_d58cb40066335c2b83865684674ee1f8c326a2ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_909271b2c6550d288d72c1d31456cccef63ee8ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ce8c777cb399fc471528837b64cd32dd28533f98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="30f3e983d3c21540b56f9ef475fcb35800ef11d5">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/instant-run_926ca6ff2d435899e394b0ea382415e905446395.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_0ce7d880ceff787e237f892f4cdf12c4e3c17c6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_0e74f312aebc8c9b3d1fb21ac90a149c37d22ed9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_478772ed88344790194619677ab8dde33ea9f82f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_c40500513ecdbee854a013d90baccc1b8420924b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_42b554018257c204949fc7590adde282ab08e332.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0aca87fb47c8221884d483e5f8720862b1c2eed1">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_2fcc4d52a1daa58c82809fc9e53aa461ca88feaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_ab085d610ecb957b83c4777b5e1451a9a0f4c17c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/terenceconlon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/terenceconlon/Google Drive/IoT Shared/IoT Project/IrrigationApp/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_dda72104736e7a2a1a9fb5142ed9664eb6055add.jar" />
+    </item>
+
+</items>
