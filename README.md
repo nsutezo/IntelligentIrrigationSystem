@@ -37,6 +37,8 @@ flaskapp.py
 learning.py
 - Analyzes the previous X number of datapoint and determines when soil moisture will cross the 30 % moisture level.
 
-
+# Android Application
+IrrigationApp
+- Install on Phone to data from the Server.
 
 GOOD LUCK!!!
