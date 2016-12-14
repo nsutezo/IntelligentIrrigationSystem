@@ -1,0 +1,521 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Columbia University EECS E4764 IoT Project Report #0</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
+							<h1 id="title">Intelligent Irrigation System</h1>
+							<p>Columbia University <br>
+								EECS E4764 Fall'16 Internet of Things<br>
+								Intelligent and Connected Systems<br>
+								Team 1 Project Report
+							</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Abstract</span></a></li>
+								<li><a href="#motivation" id="motivation-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Motivation</span></a></li>
+								<li><a href="#system" id="system-link" class="skel-layers-ignoreHref"><span class="icon fa-th">System</span></a></li>
+								<li><a href="#results" id="results-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Results</span></a></li>
+								<li><a href="#references" id="references-link" class="skel-layers-ignoreHref"><span class="icon fa-th">References</span></a></li>
+								<li><a href="#team" id="team-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Our Team</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github" src = "https://github.com/IrrigationOfThings/IntelligentIrrigationSystem/"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_MsWReY_bcE" frameborder="0" allowfullscreen></iframe>
+	
+								<h2 class="alt">The Intelligent Irrigation System</h2>
+								<p>An Internet of Things Solution for the Developing World</p>
+                                <p>Our project delivers modern information technology to an
+								ancient
+								profession: small-scale
+								farming. The
+								Intelligent Irrigation System (IIS)
+								combines
+								remote
+								sensing
+								systems,
+								a mesh
+								radio
+								network
+								powered
+								by
+								XBEE,
+								advanced
+								analytics
+								made
+								possible
+								by
+								Amazon
+								Web
+								Services,
+								and a
+								user-friendly
+								app
+								for
+								monitoring
+								and
+								control
+								of
+								various
+								sectors
+								of a
+								farm. Through
+								IIS,
+								farmers
+								can
+								have a
+								more
+								holistic
+								understanding
+								of the
+								health
+								of
+								their
+								farms and, by extension, realize higher productivity. By
+								providing
+								these
+								capabilities
+								at a
+								fraction
+								of the
+								price
+								of
+								other
+								commercial
+								irrigation
+								products,
+								the
+								IIS
+								offers
+								an
+								affordable
+								solution
+								to
+								farmers
+								facing
+								volatile
+								weather
+								patterns
+								in
+								regions
+								of the
+								world
+								that
+								are
+								most
+								threatened
+								by
+								climate
+								change.  </p>
+								
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="motivation" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Motivation</h2>
+							</header>
+                            <p align="left">
+                                As consumer-orientated IoT devices become increasingly widespread in the United States, significant portions of the world continue to lag in the adoption and implementation of these technologies.
+
+                                While one can hardly fault companies
+                            for designing products for an existing
+                            market of customers with high levels of
+                            disposable income, our group wanted to
+                            reverse this focus. Instead, our mission
+                            lies in providing the convenience and
+                            capacity of IoT advancements to users who
+                            could benefit immensely -- farmers in the
+                            developing world. We believe that an affordable, no-frills product will garner immediate appeal among this consumer group by delivering three key system capabilities:  <br>
+                            <ul style="list-style-type:disc">
+                            <li> First, the means to most efficiently distribute limited water to an area of cultivated land. <br> <br>
+                            <li> Second, the potential to plan for periods of harsh weather conditions as these events become more frequent. <br> <br>
+                            <li> Third, the ability to remotely
+                            monitor real-time soil moisture and
+                             allocate water accordingly. <br>
+                            </ul>
+                            
+                            The IIS system offers a
+                            low-cost solution to water resource
+                            management in developing countries, which
+                            will improve food security for some of the world's poorest populations.
+                            </p>
+
+						</div>
+					</section>
+					
+					
+					<section id="system" class="three">
+						<div class="container">
+
+							<header>
+								<h2>System</h2>
+							</header>
+							
+                            <article class="item">
+                                <a href="#" class="image fit"><img src="images/Architecture.png" alt="" /></a>
+                                <header>
+                                    <h3>IIS Architecture</h3>
+                                </header>
+                            </article>
+							<h3 align="left">Architecture</h3>
+                            
+                            <p align="left">An overview of the system architecture is displayed above. In the boxed region to the left of the diagram, is the sensor-XBEE subsystem. Here, every sensor is attached to an Arduino Uno, which is in turn connected to a 9V battery and a XBEE S1. Each one of the remote Arduinos reads the analog soil moisture data and packages to be sent across the Zigbee mesh network to the coordinator Arduino, which is in turn connected to the main ESP controller (positioned in the center of the figure). The main controller then sends the relevant soil moisture information to the AWS server, where it is combined with localized weather data, processed and stored. On the server, a regression is applied to each sector's sensor information to determine when, in the absence of rainfall, soil moisture will drop below a certain threshold. The results of this analysis, along with the raw sensor data, is passed along to a mobile application. Through the mobile application, users have access to various soil moisture and weather trendlines. Furthermore, based on the soil evapotranspiration patterns, the user is given a recommendation on when next to irrigate their farm parcel. <br> <br>
+                            
+                                The remote irrigation system is controlled through the mobile application developed for Android. The user sends a valve open command from the app interface and this command passes through the AWS server to the main controller, where it is parsed and sent over the Zigbee mesh network to the Arduino in the corresponding sector. This command then opens the valve connected to the water line for a user-determined period of time.
+
+                            </p>
+							
+							<h3 align="left">Technical Components</h3>
+                            <h4 align="left">Zigbee Mesh Network </h4> <br>
+                            <p align="left">
+                            Data communication between the remote Arduinos and the main ESP controller occurs on a Low-Rate Wireless Personal Area Network utilizing 802.15.4 IEEE protocol (Zigbee), the standard for communication between XBEE radio devices. Our system uses three XBEE S1 modules to create this network for passing bidirectional sensor information and valve commands. The network was initialized through XCTU, a configuration platform supplied by Digi, the maker of XBEE devices. The remote XBEE's were set up as end devices; the XBEE connected to the controller ESP was set up as a coordinator.  <br> <br>
+                            
+                            The flow of information across the Zigbee network is controlled in a number of ways. Open-source XBEE-Arduino code was utilized to parse sensor data and valve commands into packets that can be sent when the XBEEs operate in API mode. API mode (cf. AT mode) is a necessary parameter choice for enabling multi-directional flow, for controlling the end-points of certain packets, for maintaining timing across the network, and thus for our application. With the help of an online library, the Arduinos specified the above parameters for each type of information to be transmitted.  <br> <br>
+                            
+                            It is also worth noting how the XBEE radios can operate as relays. Each packet that is sent across the network has a 16-bit destination address. However in our application, when an XBEE sends an individual packet, it broadcasts the packet to the entire network, not only to the XBEE with the corresponding address. Therefore, if the desired XBEE receiver is not in immediate range of the transmitting XBEE (~10 to 100m), the packet will be relayed through the XBEE radio modules which are in direct radio contact to the sender. This unique functionality allows for the connection of widely distributed sensors, as well as the ability to easily scale the existing system.  <br>
+                            
+                            <h4 align="left">Cloud and Analytics  </h4> <br>
+                            <p align="left">
+                            Using Amazon Web Services (AWS), an Ubuntu 14.04 EC2 Virtual Server instance was created as the primary medium for Cloud Computing for the IIS. This virtual server houses the database (MySQL) and web development platform (FLASK). MySQL was chosen as the database for this project because of the nature of the incoming data. Each soil moisture value is timestamped and the corresponding weather data (retrieved from openweathermap.org) is append and stored in the database. A relational database such as MySQL supports this data structure and allows for fast, simple, and easy queries. A RESTful implementation of Flask (Python) was used to facilitate communication between the main micro controller, the database and the mobile application.  Data requests to and from the database by the main micro-controller are all handled in the flask application. In addition, all commands to the main controller from the mobile application are processed through the flask application and sent accordingly to the controller. <br> <br>
+                            
+                            Soil moisture data for each sector is used to schedule irrigation. A regression model is applied to soil moisture data to determine when the soil moisture drops below a predefined wilting moisture level.  A five-day weather forecast is retrieved (from openweathermap.org) and analyzed. The server then sends the next irrigation date and predicted rainfall to the user. <br> <br>
+                            
+                            Below is the overall AWS Ubuntu Server Architecture.<br> <br>
+                            </p>
+                            <a href="#" class="image fit"><img src="images/ServerArchitecture.png" alt="" /></a>
+							
+                            <h4 align="left">Android Application</h4> <br>
+                            <p align="left">
+                            The Intelligent Irrigation System application developed for Android was designed to offer the IIS user complete control over the installed irrigation system. On the main page of the app, the user can display the last 50 soil moisture data points from the remote sensors by pressing the button in the top left corner of the screen. Below this graph, maximum temperature, minimum temperature, barometric pressure, and remaining tank water for the day are displayed. Further down, the app presents the watering information for each sensor-controlled sector of the field. The next watering event, as predicted by openweathermaps.org, is contrasted with the recommended watering dates for the sectors. An AWS-powered regression model determines the time at which the moisture for a certain sector drops below a 30% threshold, and returns this time in the interface. <br> <br>
+                            
+                            On the bottom of the page, two buttons offer control over the watering tank valves. When the user presses the empty text box, a numeric keypad appears which allows for input of an integer. This integer corresponds to the length of time for which the valve will open (seconds in our presentation, minutes for the in-field application). Once the user confirms the number input and selects one of the two buttons, the corresponding valve will open for that allotment of time. <br> <br>
+
+                            The second page displays additional information about the temperature and humidity of the field location. The two graphs also retrieve the relevant data from the AWS server and present the last 50 readings for each quantity separately. The application returns to the main page with a press of the Prev. button in the top right corner of the screen. <br>
+                            </p>
+                            
+                            <h4 align="left">Prototype</h4> <br>
+
+							<p
+							align="left">The IIS prototype uses a Huzzah
+							Feather board running
+							MicroPython
+							with a
+							built-in
+							ESP8266 WiFi
+							module. The
+							Huzzah drives
+							an Arduino
+							Mega that
+							communicates
+							with two
+							remote Aduino
+							Unos using an
+							XBEE mesh network. The
+							Huzzah
+							periodically
+							checks the
+							Amazon AWS
+							Server for
+							directions
+							from the
+							farmer and
+							passes them to a
+							set of remote
+							watering
+							valves. The
+							remote valve
+							controllers
+							then pass soil
+							moisture data
+							back to the
+							server, where
+							it can be used
+							to inform how
+							a farmer
+							rations his or
+							her water supply.</p>
+							
+							
+							
+						</div>
+					</section>
+					
+					
+					<section id="results" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Results</h2>
+							</header>
+                            <p align="left"> Our first prototype of the Intelligent Irrigation System accomplished all but one objective we set out to achieve in our project proposal. All bronze-level goals — collection and transmission of soil data from XBEE mesh, data processing and visualization on Android, and binary solenoid operation based on sensor information and user commands — were satisfied. Both silver-level goals — integration of real time weather data in AWS and the Android application, and operation of the remote sensors and Arduinos off of a 9V battery — were satisfied. Our first gold-level goal — developing a regression analysis of soil desiccation for predictive watering recommendations — was similarly met. The only gold-level benchmark we were not able to realize was the development of data transfer abilities over a 3G or GSM network. This capability is included in our discussion of future work on the IIS prototype. <br> <br>
+                            
+                            The chart below displays the array of data that is stored in the MySQL database. This database stores the soil moisture, temperature, pressure, minimum temperature, maximum temperature, windspeed, cloud coverage, and remaining tank volume. This is the same data that is sent to the Android application when requested by the user. A figure of the sensor data presented on the application can also be seen below.
+                            </p>
+                            
+                            
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/sql_database.png" alt="" /></a>
+								<header>
+                                    <h3>Field Data Stored in MySQL Database.</h3>
+                                </header>
+                            </article>
+
+                            <article class="item">
+                                <a href="#"><img src="images/app_display.jpg" alt="" width="400" height = "800"/></a>
+                                <header>
+                                    <h3>Soil Moisture Data Display on Android Application</h3>
+                                </header>
+                            </article>
+
+                            <p align="left">
+                            The same soil moisture data is exhibited below, except here one can see a greater quantity of readings displayed. These readings are used for the soil desiccation regression analysis, which predicts when each sector of farmland will drop below 30% moisture, the average value at which wilting starts to occur. The date and time at which each sector crosses this 30% threshhold is sent to the Android application, where it is presented next to a line with the next predicted watering event for easy comparison.
+                            </p>
+                            
+                            <article class="item">
+                                <a href="#" class="image fit"> <img src="images/soil_moisture.png" alt="" /></a>
+                                <header>
+                                    <h3>Sample Soil Moisture Over Time.</h3>
+                                            
+                                </header>
+							</article>
+							
+                            <p align="left">
+                            The embedded video at the top of the page provides further discussion of our results and objectives met in an easily digestable format. Please give it a watch!
+                            </p>
+						</div>
+					</section>
+					
+                    <section id="Future Work" class="two">
+                        <div class="container">
+                            
+                            <header>
+                                <h2>Future Work</h2>
+                            </header>
+                            
+                            <p align="left">As the product is
+                            developed further, our chief goal will be to
+                            reduce the system cost to the user. By employing
+                            the full capabilities of the XBEE's API mode, it may be possible to read
+                            the soil moisture sensors and control the
+                            water valves without the help
+                            of microcontrollers in the field. We would
+                            also like to explore the possiblity of contacting the AWS
+                            Server over cellular communication so that
+                            the system can be deployed where WiFi
+                            isn't available. For added functionality and better soil monitoring, additional sensors such as a pressure sensor to moritor the water tank volume, and soil temperature sensors will be included. <br> <br>
+                            
+                            In future versions of the IIS, we would also like to implement user sign-in functionality. By setting up each user with a unique account and password, this improvement would add a level of security to the application. Combined with a web application, each consumer could then monitor soil moisture and control water usage from a internet browser.  Other improvements include designing a sleeker application interface, enabling encryption for packets on the Zigbee network, and testing the system on a more robust network with a greater number of receiving XBEE/sensor devices.
+                            
+                            </p>
+                            
+                            
+                            
+                            
+                        </div>
+                    </section>
+                    
+					<section id="references" class="three">
+                        
+						<div class="container">
+                            <p align="left">
+
+							<header>
+								<h2>References</h2>
+							</header>
+                            <header>
+                                <h3> Hardware </h3>
+                                <p> <ul style="list-style-type:disc">
+                                    <li> Adafruit : https://www.adafruit.com
+                                    </ul></p>
+                                
+                                <h3> Software </h3>
+                                <p> <ul style="list-style-type:disc">
+                                    <li> MicroPython: http://micropython.org
+                                    <li> XBEE: https://github.com/andrewrapp/XBEE-arduino
+                                    <li> Android Chart: https://github.com/PhilJay/MPAndroidChart
+                                    <li> Android Application : https://developer.android.com/studio/index.html
+                                    <li> Flask (Python): http://flask.pocoo.org
+                                    <li> Amazon Web Services: https://aws.amazon.com
+                                        </ul></p>
+                                
+							</p>
+
+						</div>
+					</section>
+					
+
+				<!-- About Me -->
+					<section id="team" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Our Team</h2>
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#"><img src="images/terry.jpg" alt="" /></a>
+										<header>
+											<h3>Terry
+								Conlon</h3>
+											<p>Terry is a Mechanical Engineer in the first year of his PhD program at Columbia. He intends to focus his future work on rural electrification and microgrid planning, while also studying the development patterns of areas which acquire energy infrastructure. Prior to Columbia, Terry received a BSE in Mechanical Engineering from Duke University, where he was an Angier B. Duke Scholar and a Pratt Research Fellow.</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#"><img src="images/simone.jpg" alt="" /></a>
+										<header>
+											<h3>Simone
+								Fobi</h3>
+											<p>Simone Fobi is a PhD student in Mechanical Engineering. Her research interests lay at the intersection of developing low cost energy monitoring devices and data mining to improve electricity provision services in Africa. After her BS in environmental engineering, she obtained her MS from Stanford; which laid the foundations for her interests in energy systems and IT. Prior to joining the PhD program, she worked on Energy and Healthcare projects at IBM Research Africa, Nairobi Kenya.</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#"><img src="images/noah.jpg" alt="" /></a>
+										<header>
+											<h3>Noah
+								Rauschkolb</h3>
+											<p>Noah Rauschkolb is an MS/PhD student in the Mechanical Engineering Department researching techniques for making buildings more responsive to variations in wind and solar production. Before joining the Sustainable Engineering Lab, Noah worked as a building systems engineer at Arup. He holds a B.A. in Mathematics from Wesleyan University and a B.Sc. in Mechanical Engineering from Columbia, from which he graduated Magna Cum Laude.</p>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p align="left">
+								<strong>Terry Conlon: </strong>tmc2180@columbia.edu</br>
+								<strong>Simone Fobi: </strong>sf2786@columbia.edu</br>
+								<strong>Noah Rauschkolb: </strong>nbr2107@columbia.edu</br>
+							</br>
+								<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
+								<strong>Class Website:</strong>
+									<a href="https://edblogs.columbia.edu/eecse4764-001-2016-3/">Columbia University EECS E4764 Fall '16 IoT</a></br>
+								<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+							</p>
+							
+                            <p align="left">
+                            All code can be found at: https://github.com/IrrigationOfThings/IntelligentIrrigationSystem
+                            </p>
+                            
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
