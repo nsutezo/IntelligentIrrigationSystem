@@ -41,4 +41,12 @@ learning.py
 IrrigationApp
 - Install on Phone to access data from the Server.
 
+# Project Website
+Download ProjectWebsite Folder and open the index.html (with a broswer) to view our Project Website.
+
+# Project Video
+Access https://www.youtube.com/watch?v=_MsWReY_bcE for our Project Video.
+
+
+
 GOOD LUCK!!!
